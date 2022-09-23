@@ -1,4 +1,13 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="Rn/JutsS~N*zP9S_L(A2" x="-3" y="-50"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_number" id="$l9WRUDU7IO2zqkT6QWx"><value name="number"><shadow type="math_number" id="h)ij/_ihP|R%5:m*q7d,"><field name="NUM">3</field></shadow></value><next><block type="device_show_number" id="Yi.J7Pvrnfq[$V(Mu2=v"><value name="number"><shadow type="math_number" id="lm%CQ.qQxD8|kMBI3(6L"><field name="NUM">2</field></shadow></value><next><block type="device_show_number" id="xWtq100zmn^qroQX5cL_"><value name="number"><shadow type="math_number" id="8:5z_0N5uElR.%_BDx-r"><field name="NUM">1</field></shadow></value><next><block type="device_print_message" id="*]B@%_]pu5*95oa,:NRn"><value name="text"><shadow type="text" id="jr;E;+Vr--W]Chf4oBE}"><field name="TEXT">Vai!</field></shadow></value><next><block type="device_clear_display" id="Afc8xL=zO8`E$47j$rXQ"><next><block type="device_pause" id="i=YTS}0zs;$+Xao9:.~2"><value name="pause"><shadow type="timePicker" id=";zX6t%NhIW(D$1VEs9|("><field name="ms">100</field></shadow><block type="device_random" id="XJQ?Qko)hY-OW=_VJbz*"><value name="min"><shadow type="math_number" id="nl;{(J3Q~.:-1#Er=/NG"><field name="NUM">1000</field></shadow></value><value name="limit"><shadow type="math_number" id="}oMrZ*{}hbaa~Uur:aJ."><field name="NUM">5000</field></shadow></value></block></value><next><block type="basic_show_icon" id="k|m}?UA%4zbY4n2|Zcn4"><field name="i">IconNames.House</field><next><block type="device_pause" id="fY+!xII|Ri8}Gy0d%M$9"><value name="pause"><shadow type="timePicker" id="5~4%/IltIGPB7i+lAs:A"><field name="ms">500</field></shadow></value><next><block type="device_clear_display" id="h[/zRJ+I^:^#{yY;;QZ;"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="PD_-/l:)LViwc^TOV:^m" x="329" y="-66"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_show_leds" id="p$2$g4Iy_yZ4^t:~{{Cu"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # # . . . 
+        # # . . .
+        `</field></block></statement></block><block type="device_pin_event" id="ITip`sCv|H6}Q*Qr3/!1" x="619" y="-62"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="fqKIjG!b~C125uxHmtST"><field name="LEDS">`
+        . . . # # 
+        . . . # # 
+        . . # # # 
+        . . # # # 
+        . . # # #
+        `</field></block></statement></block></xml>
